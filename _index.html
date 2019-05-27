@@ -10,7 +10,22 @@
 </head>
 <body>
 <object data="embedded-elements/header.html" type="text/html"></object>
+
+<div id="video-player" class="fullscreen-bg">
+    <video class="fullscreen-bg__video" autoplay muted poster="assets/videos-background/Home-black.png">
+        <source src="assets/videos-background/parrawebsite_preview.mov" type="video/mp4">
+        <source src="video/BLUE_DOTS.webm" type="video/webm">
+        <source src="video/BLUE_DOTS.ogv" type="video/ogg">
+    </video>
+    <div class="fullscreen-bg__playlist">
+        <a href="assets/videos-background/parrawebsite_preview.mov" class="current-video"></a>
+        <a href="video/ORANGE_DOTS.mp4"></a>
+        <a href="video/RED_DOTS.mp4"></a>
+    </div>
+</div>
+
 <object data="embedded-elements/footer.html" type="text/html"></object>
+<script language="javascript" type="text/javascript" src="js/video-background.js"></script>
 </body>
 </html>
 
