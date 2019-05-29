@@ -70,13 +70,3 @@ p:last-child {
         left: -100%;
     }
 }
-
-@media (max-width: 767px) {
-    .fullscreen-bg {
-        background: url('../img/BLUE_DOTS.jpg') center center / cover no-repeat;
-    }
-
-    .fullscreen-bg__video {
-        display: none;
-    }
-}
